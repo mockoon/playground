@@ -1,0 +1,92 @@
+{
+  "uuid": "e4d34ddc-9875-4441-8df4-db4d66eef3df",
+  "lastMigration": 32,
+  "name": "Playground mock",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3003,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "c5054b7c-3b6e-4fd9-9cb8-9997125fb77b",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "posts",
+      "responses": [
+        {
+          "uuid": "48d73f95-ad54-4134-87c7-f1c0d47ed148",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "nldz",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "c5054b7c-3b6e-4fd9-9cb8-9997125fb77b"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "X-Powered-By",
+      "value": "Powered by Mockoon"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "98151f38-020c-4f69-ba4c-6099f818a41e",
+      "id": "nldz",
+      "name": "Posts",
+      "documentation": "",
+      "value": "[\n  {{#repeat 100}}\n    {\n      \"uuid\": \"{{faker 'string.uuid'}}\"\n      \"title\": \"{{faker 'lorem.sentence'}}\",\n      \"author\": \"{{faker 'person.fullName'}}\",\n      \"date\": \"{{faker 'date.past'}}\",\n      \"content\": \"{{faker 'lorem.paragraphs'}}\",\n      \"views\": {{faker 'number.int' max=99999}},\n      \"isPublished\": {{faker 'datatype.boolean'}}\n    }\n    {{#unless @last}},{{/unless}}\n  {{/repeat}}\n]"
+    }
+  ],
+  "callbacks": []
+}
