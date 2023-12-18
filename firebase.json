@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "mockoon-api-playground",
+    "target": "playground",
     "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
