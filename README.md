@@ -16,7 +16,7 @@ Mockoon's playground is a ready-to-use mock API for all your prototyping needs: 
 
 The playground offers the following routes, populated with fake data (generated using [Faker.js](https://fakerjs.dev/)):
 
-- `/api/users`: a CRUD API with 1000 fake users
+- `/posts`: a CRUD API with 100 fake posts
 
 ➡️ Playground API URL: [https://playground.mockoon.com](https://playground.mockoon.com)
 ➡️ [Playground's website](https://mockoon.com/playground/)

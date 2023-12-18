@@ -21,7 +21,7 @@
     "trailingComma": "none"
   },
   "scripts": {
-    "dockerize": "mockoon-cli dockerize -d ./dist/playground-mock.json -o ./dist/Dockerfile -p 3000"
+    "dockerize": "mockoon-cli dockerize -d ./dist/playground-mock.json -o ./dist/Dockerfile -p 8080"
   },
   "devDependencies": {
     "@mockoon/cli": "^6.0.1"
