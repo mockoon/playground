@@ -1,0 +1,17 @@
+name: Deploy hosting
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      FIREBASE_TOKEN: ${{secrets.FIREBASE_TOKEN}}
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build and deploy
+        run: |
+          npm run deploy

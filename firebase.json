@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "target": "mockoon-api-playground",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "playground",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}

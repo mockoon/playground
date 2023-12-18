@@ -64,7 +64,7 @@
     },
     {
       "key": "X-Powered-By",
-      "value": "Powered by Mockoon"
+      "value": "Mockoon (https://mockoon.com)"
     }
   ],
   "proxyReqHeaders": [
@@ -85,7 +85,7 @@
       "id": "nldz",
       "name": "Posts",
       "documentation": "",
-      "value": "[\n  {{#repeat 100}}\n    {\n      \"uuid\": \"{{faker 'string.uuid'}}\"\n      \"title\": \"{{faker 'lorem.sentence'}}\",\n      \"author\": \"{{faker 'person.fullName'}}\",\n      \"date\": \"{{faker 'date.past'}}\",\n      \"content\": \"{{faker 'lorem.paragraphs'}}\",\n      \"views\": {{faker 'number.int' max=99999}},\n      \"isPublished\": {{faker 'datatype.boolean'}}\n    }\n    {{#unless @last}},{{/unless}}\n  {{/repeat}}\n]"
+      "value": "[\n  {{#repeat 100}}\n    {\n      \"uuid\": \"{{faker 'string.uuid'}}\",\n      \"title\": \"{{faker 'lorem.sentence'}}\",\n      \"author\": \"{{faker 'person.fullName'}}\",\n      \"date\": \"{{faker 'date.past'}}\",\n      \"content\": \"{{faker 'lorem.paragraphs' 5 separator=''}}\",\n      \"views\": {{faker 'number.int' max=99999}},\n      \"isPublished\": {{faker 'datatype.boolean'}}\n    }{{#unless @last}},{{/unless}}\n  {{/repeat}}\n]"
     }
   ],
   "callbacks": []
