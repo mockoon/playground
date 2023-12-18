@@ -14,25 +14,34 @@
 
 Mockoon's playground is a ready-to-use mock API for all your prototyping needs: fake JSON data, JSON placeholders, realistic CRUD API mock, etc. It is also a good way to discover Mockoon's features.
 
-The playground offers the following routes, populated with fake data (generated using [Faker.js](https://fakerjs.dev/)):
-
-- `/posts`: a CRUD endpoint with 100 fake posts
-- `/users`: a CRUD endpoint with 100 fake users
-
 ➡️ Playground API URL: [https://playground.mockoon.com](https://playground.mockoon.com)
-➡️ [Playground's website](https://mockoon.com/playground/)
+➡️ [Playground's documentation](https://mockoon.com/playground/)
+
+The playground offers the following resources, populated with fake data (generated using [Faker.js](https://fakerjs.dev/)):
+
+- `/photos`: a CRUD endpoint with fake photos.
+- `/posts`: a CRUD endpoint with fake posts.
+- `/todos`: a CRUD endpoint with fake todos.
+- `/users`: a CRUD endpoint with fake users.
+
+The following routes are available for each resource:
+
+- `GET /resources`: Returns the entire array
+- `GET /resources/:id`: Returns an object by its id property
+- `POST /resources`: Inserts a new object in the array (autogenerate the id (UUID) if not provided)
+- `PUT /resources/:id`: Performs a full object update by its id (replace)
+- `PATCH /resources/:id`: Performs a partial object update by its id (merge)
+- `DELETE /resources/:id`: Deletes an object by its id
+
+You can also use the `sort`, `order`, `limit` and `page` query parameters. You will find more information about the CRUD routes behavior in our [documentation](https://mockoon.com/docs/latest/api-endpoints/crud-routes/).
+
+> 💡 The following routes are disabled: `DELETE /resources`, `PATCH /resources`, `PUT /resources`. POST, DELETE, PATCH and PUT requests are persisted. GET requests are cached.
+
+> ⚠️ The playground is a shared resource (please don't abuse it) and is not meant to be used in production. Data are frequently reset.
 
 To go further, download Mockoon and discover all its [features](https://mockoon.com/features/).
 
 ➡️ [Download Mockoon](https://mockoon.com/download/)
-
-## Mockoon's documentation
-
-You will find Mockoon's [documentation](https://mockoon.com/docs/latest) on the official website. It covers Mockoon's most complex features. Feel free to contribute or ask for new topics to be covered.
-
-## Changelogs
-
-You will find Mockoon applications [changelogs](https://mockoon.com/releases/) on the official website.
 
 ## Support/feedback
 
