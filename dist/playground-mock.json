@@ -560,9 +560,42 @@
         }
       ],
       "responseMode": null
+    },
+    {
+      "uuid": "ba8cc650-e94b-49ee-b30d-1e37e80a3385",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "",
+      "responses": [
+        {
+          "uuid": "7b375a21-f0d6-4907-9cec-5e726e2d4eb1",
+          "body": "{\"documentation\": \"https://mockoon.com/playground/\"}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
     }
   ],
   "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "ba8cc650-e94b-49ee-b30d-1e37e80a3385"
+    },
     {
       "type": "folder",
       "uuid": "ea831cc6-d553-4b1c-84ad-4b3cf2aee407"
