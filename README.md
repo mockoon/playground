@@ -19,19 +19,21 @@ Mockoon's playground is a ready-to-use mock API for all your prototyping needs: 
 
 The playground offers the following resources, populated with fake data (generated using [Faker.js](https://fakerjs.dev/)):
 
-- `/photos`: a CRUD endpoint with fake photos.
-- `/posts`: a CRUD endpoint with fake posts.
-- `/todos`: a CRUD endpoint with fake todos.
-- `/users`: a CRUD endpoint with fake users.
+- [`/contacts`](https://playground.mockoon.com/contacts): a CRUD endpoint with fake contacts.
+- [`/movies`](https://playground.mockoon.com/movies): a CRUD endpoint with fake movies.
+- [`/photos`](https://playground.mockoon.com/photos): a CRUD endpoint with fake photos.
+- [`/posts`](https://playground.mockoon.com/posts): a CRUD endpoint with fake posts.
+- [`/todos`](https://playground.mockoon.com/todos): a CRUD endpoint with fake todos.
+- [`/users`](https://playground.mockoon.com/users): a CRUD endpoint with fake users.
 
 The following routes are available for each resource:
 
-- `GET /resources`: Returns the entire array
-- `GET /resources/:id`: Returns an object by its id property
-- `POST /resources`: Inserts a new object in the array (autogenerate the id (UUID) if not provided)
-- `PUT /resources/:id`: Performs a full object update by its id (replace)
-- `PATCH /resources/:id`: Performs a partial object update by its id (merge)
-- `DELETE /resources/:id`: Deletes an object by its id
+- `GET /resources`: Returns the entire array.
+- `GET /resources/:id`: Returns an object by its id property.
+- `POST /resources`: Inserts a new object in the array (autogenerate the id (UUID) if not provided).
+- `PUT /resources/:id`: Performs a full object update by its id (replace).
+- `PATCH /resources/:id`: Performs a partial object update by its id (merge).
+- `DELETE /resources/:id`: Deletes an object by its id.
 
 You can also use the `sort`, `order`, `limit` and `page` query parameters. You will find more information about the CRUD routes behavior in our [documentation](https://mockoon.com/docs/latest/api-endpoints/crud-routes/).
 
