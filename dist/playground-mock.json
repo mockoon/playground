@@ -614,7 +614,7 @@
       "responses": [
         {
           "uuid": "7b375a21-f0d6-4907-9cec-5e726e2d4eb1",
-          "body": "{\"documentation\": \"https://mockoon.com/playground/\"}",
+          "body": "{\"response\": \"Welcome to Mockoon's API playground. Be sure to check our documentation at https://mockoon.com/playground/. Enjoy!\"}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
