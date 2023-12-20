@@ -945,7 +945,7 @@
       "id": "icnb",
       "name": "Movies",
       "documentation": "",
-      "value": "[\n  {{#repeat 100}}\n    {\n      \"id\": \"{{faker 'string.uuid'}}\",\n      \"title\": \"{{faker 'lorem.words'}}\",\n      \"genre\": \"{{faker 'lorem.word'}}\",\n      \"director\": \"{{faker 'person.fullName'}}\",\n      \"releaseYear\": {{date \"1900\" \"2023\" \"YYYY\"}},\n      \"rating\": {{faker 'datatype.number' max=10}},\n      \"isPopular\": {{faker 'datatype.boolean'}}\n    }{{#unless @last}},{{/unless}}\n  {{/repeat}}\n]"
+      "value": "[\n  {{#repeat 100}}\n    {\n      \"id\": \"{{faker 'string.uuid'}}\",\n      \"title\": \"{{faker 'lorem.words'}}\",\n      \"genre\": \"{{faker 'lorem.word'}}\",\n      \"director\": \"{{faker 'person.fullName'}}\",\n      \"releaseYear\": {{date \"1900\" \"2023\" \"YYYY\"}},\n      \"rating\": {{faker 'number.int' max=10}},\n      \"isPopular\": {{faker 'datatype.boolean'}}\n    }{{#unless @last}},{{/unless}}\n  {{/repeat}}\n]"
     },
     {
       "uuid": "a2b69ccc-dd76-4860-ba81-714fdac1d02a",
@@ -973,7 +973,7 @@
       "id": "e3oa",
       "name": "Users",
       "documentation": "",
-      "value": "[\r\n  {{#repeat 100}}\r\n    {\r\n      \"id\": \"{{faker 'string.uuid'}}\",\r\n      \"name\": \"{{faker 'person.firstName'}} {{faker 'person.lastName'}}\",\r\n      \"email\": \"{{faker 'internet.email'}}\",\r\n      \"phone\": \"{{faker 'phone.number'}}\",\r\n      \"address\": \"{{faker 'location.streetAddress'}}, {{faker 'location.city'}}, {{faker 'location.stateAbbr'}} {{faker 'location.zipCode'}}\",\r\n      \"birthdate\": \"{{date '1900' '2023' 'YYYY-MM-dd'}}\",\r\n      \"isActive\": {{faker 'datatype.boolean'}}\r\n    }{{#unless @last}},{{/unless}}\r\n  {{/repeat}}\r\n]"
+      "value": "[\r\n  {{#repeat 100}}\r\n    {\r\n      \"id\": \"{{faker 'string.uuid'}}\",\r\n      \"name\": \"{{faker 'person.firstName'}} {{faker 'person.lastName'}}\",\r\n      \"email\": \"{{faker 'internet.email'}}\",\r\n      \"phone\": \"{{faker 'phone.number'}}\",\r\n      \"address\": \"{{faker 'location.streetAddress'}}, {{faker 'location.city'}}, {{faker 'location.state' (object abbreviated=true)}} {{faker 'location.zipCode'}}\",\r\n      \"birthdate\": \"{{date '1900' '2023' 'YYYY-MM-dd'}}\",\r\n      \"isActive\": {{faker 'datatype.boolean'}}\r\n    }{{#unless @last}},{{/unless}}\r\n  {{/repeat}}\r\n]"
     }
   ],
   "callbacks": []
