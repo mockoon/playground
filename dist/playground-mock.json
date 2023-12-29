@@ -865,12 +865,50 @@
         }
       ],
       "responseMode": null
+    },
+    {
+      "uuid": "cc0bff13-7f9a-4778-a83c-5404fbb4d3b6",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "robots.txt",
+      "responses": [
+        {
+          "uuid": "deb586da-e89e-48b1-883c-b7ab4622e93a",
+          "body": "User-agent: *\r\nDisallow: /",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
     }
   ],
   "rootChildren": [
     {
       "type": "route",
       "uuid": "ba8cc650-e94b-49ee-b30d-1e37e80a3385"
+    },
+    {
+      "type": "route",
+      "uuid": "cc0bff13-7f9a-4778-a83c-5404fbb4d3b6"
     },
     {
       "type": "folder",
