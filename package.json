@@ -21,11 +21,9 @@
     "trailingComma": "none"
   },
   "scripts": {
-    "dockerize": "mockoon-cli dockerize -d ./dist/playground-mock.json -o ./dist/Dockerfile -p 8080",
-    "deploy": "firebase deploy --token \"$FIREBASE_TOKEN\" --only hosting"
+    "dockerize": "mockoon-cli dockerize -d ./dist/playground-mock.json -o ./dist/Dockerfile -p 8080"
   },
   "devDependencies": {
-    "@mockoon/cli": "^6.0.1",
-    "firebase-tools": "^13.0.2"
+    "@mockoon/cli": "^6.1.0"
   }
 }

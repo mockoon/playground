@@ -35,7 +35,7 @@ The following routes are available for each resource:
 - `PATCH /resources/:id`: Performs a partial object update by its id (merge).
 - `DELETE /resources/:id`: Deletes an object by its id.
 
-You can also use the `sort`, `order`, `limit` and `page` query parameters. You will find more information about the CRUD routes behavior in our [documentation](https://mockoon.com/docs/latest/api-endpoints/crud-routes/).
+You can also use the sorting, searching and filtering query parameters on the main GET route, example: `?property_eq=test&page=2&limit=50`. You will find more information about the CRUD routes behavior in our [documentation](https://mockoon.com/docs/latest/api-endpoints/crud-routes/).
 
 > 💡 The following routes are disabled: `DELETE /resources`, `PATCH /resources`, `PUT /resources`. POST, DELETE, PATCH and PUT requests are persisted. GET requests are cached.
 
