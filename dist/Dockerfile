@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-RUN npm install -g @mockoon/cli@6.0.1
+RUN npm install -g @mockoon/cli@latest
 COPY ./playground-mock.json ./playground-mock.json
 
 # Install curl for healthcheck and tzdata for timezone support.
