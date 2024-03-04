@@ -24,6 +24,6 @@
     "dockerize": "mockoon-cli dockerize -d ./dist/playground-mock.json -o ./dist/Dockerfile -p 8080"
   },
   "devDependencies": {
-    "@mockoon/cli": "^6.2.0"
+    "@mockoon/cli": "^7.0.0"
   }
 }
