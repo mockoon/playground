@@ -1709,7 +1709,7 @@
       "id": "h2sf",
       "name": "Companies",
       "documentation": "",
-      "value": "[\n  {{#repeat 100}}\n    {\n      \"name\": \"{{faker 'company.name'}}\",\n      \"industry\": \"{{faker 'company.bs'}}\",\n      \"location\": {\n        \"city\": \"{{faker 'location.city'}}\",\n        \"country\": \"{{faker 'location.country'}}\"\n      },\n      \"employees\": {{faker 'number.int' max=99999}},\n      \"is_public\": {{faker 'datatype.boolean'}}\n    }\n  {{/repeat}}\n]"
+      "value": "[\n  {{#repeat 100}}\n    {\n      \"id\": \"{{faker 'string.uuid'}}\",\n      \"name\": \"{{faker 'company.name'}}\",\n      \"industry\": \"{{faker 'company.bs'}}\",\n      \"location\": {\n        \"city\": \"{{faker 'location.city'}}\",\n        \"country\": \"{{faker 'location.country'}}\"\n      },\n      \"employees\": {{faker 'number.int' max=99999}},\n      \"is_public\": {{faker 'datatype.boolean'}}\n    }\n  {{/repeat}}\n]"
     },
     {
       "uuid": "1c57f9b9-04ef-4235-9eb6-6ffc36c069d2",
@@ -1737,7 +1737,7 @@
       "id": "o0wn",
       "name": "Notifications",
       "documentation": "",
-      "value": "[\n  {{#repeat 100}}\n    {\n      \"id\": {{faker 'number.int' max=99999}},\n      \"title\": \"{{faker 'lorem.sentence'}}\",\n      \"message\": \"{{faker 'lorem.paragraph'}}\",\n      \"read\": {{faker 'datatype.boolean'}},\n      \"timestamp\": \"{{faker 'date.recent'}}\"\n    }\n  {{/repeat}}\n]"
+      "value": "[\n  {{#repeat 100}}\n    {\n      \"id\": \"{{faker 'string.uuid'}}\",\n      \"title\": \"{{faker 'lorem.sentence'}}\",\n      \"message\": \"{{faker 'lorem.paragraph'}}\",\n      \"read\": {{faker 'datatype.boolean'}},\n      \"timestamp\": \"{{faker 'date.recent'}}\"\n    }\n  {{/repeat}}\n]"
     },
     {
       "uuid": "a2b69ccc-dd76-4860-ba81-714fdac1d02a",
