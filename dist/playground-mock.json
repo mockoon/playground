@@ -1,144 +1,12 @@
 {
   "uuid": "e4d34ddc-9875-4441-8df4-db4d66eef3df",
-  "lastMigration": 32,
+  "lastMigration": 33,
   "name": "Playground mock",
   "endpointPrefix": "",
   "latency": 0,
   "port": 3003,
   "hostname": "",
   "folders": [
-    {
-      "uuid": "9dd1c769-dd71-4474-b37b-f67d3cfac126",
-      "name": "Users",
-      "children": [
-        {
-          "type": "route",
-          "uuid": "c52f1ba8-7557-484f-81d0-da66a49611db"
-        },
-        {
-          "type": "route",
-          "uuid": "01bc923f-30e0-41ba-8121-663f7e0cb96a"
-        },
-        {
-          "type": "route",
-          "uuid": "2e690302-578a-449f-b8ef-fff0ed565d35"
-        },
-        {
-          "type": "route",
-          "uuid": "230bcb6f-cb5d-44f9-b625-a4111b88cb5a"
-        }
-      ]
-    },
-    {
-      "uuid": "796e7599-3711-4680-82f7-25f8aff779cc",
-      "name": "Posts",
-      "children": [
-        {
-          "type": "route",
-          "uuid": "6a63ab89-350f-4d38-b27a-994ea5ce0182"
-        },
-        {
-          "type": "route",
-          "uuid": "37f1ac54-7b09-41cc-8ee4-78e8dab6bbef"
-        },
-        {
-          "type": "route",
-          "uuid": "de113697-9b46-4398-8ae3-9879eeaa6423"
-        },
-        {
-          "type": "route",
-          "uuid": "c5054b7c-3b6e-4fd9-9cb8-9997125fb77b"
-        }
-      ]
-    },
-    {
-      "uuid": "ea831cc6-d553-4b1c-84ad-4b3cf2aee407",
-      "name": "Photos",
-      "children": [
-        {
-          "type": "route",
-          "uuid": "f7c44b9c-363e-4dc5-869c-27eba9fe2366"
-        },
-        {
-          "type": "route",
-          "uuid": "9b83ff5e-4d24-425a-bc0a-36226d9dfcd0"
-        },
-        {
-          "type": "route",
-          "uuid": "41a6f4b8-5a7b-4bb9-a5ad-87052249ccb3"
-        },
-        {
-          "type": "route",
-          "uuid": "6b5d6193-06ab-4277-99c6-ee11d6687d85"
-        }
-      ]
-    },
-    {
-      "uuid": "5ecc0e66-99b9-48b6-97c9-d0c0b4a2fa5c",
-      "name": "Todos",
-      "children": [
-        {
-          "type": "route",
-          "uuid": "3af5a152-9c87-47ce-abf9-ad96b94f76cc"
-        },
-        {
-          "type": "route",
-          "uuid": "d4264639-72fc-4af9-88c7-2b41598061ac"
-        },
-        {
-          "type": "route",
-          "uuid": "28219fb6-e1bb-43f9-aa26-84f63b4ea992"
-        },
-        {
-          "type": "route",
-          "uuid": "20b1f6df-0b79-49ab-a7e3-5401d24bab3e"
-        }
-      ]
-    },
-    {
-      "uuid": "eee27cf2-bf2d-4152-8065-80e7e5f40f9a",
-      "name": "Contacts",
-      "children": [
-        {
-          "type": "route",
-          "uuid": "5043d69b-0291-428e-8276-7383f640aa8f"
-        },
-        {
-          "type": "route",
-          "uuid": "71c16075-cf6d-4754-aeab-8a3e1fbc81af"
-        },
-        {
-          "type": "route",
-          "uuid": "f7a6253f-eb79-4095-aec4-b68779eba2e8"
-        },
-        {
-          "type": "route",
-          "uuid": "d3689be3-fbb0-488e-9a7b-ac3c32380765"
-        }
-      ]
-    },
-    {
-      "uuid": "01fa6f3d-f03d-4346-b1e4-5cee805145a9",
-      "name": "Movies",
-      "children": [
-        {
-          "type": "route",
-          "uuid": "dd74e73d-4e54-434d-8fb0-cac4793250bc"
-        },
-        {
-          "type": "route",
-          "uuid": "542beead-3053-4c79-9030-e1eec974a72a"
-        },
-        {
-          "type": "route",
-          "uuid": "76a52b98-42b1-4b91-a3f0-17d28c257379"
-        },
-        {
-          "type": "route",
-          "uuid": "1d654a75-38bb-47ba-be51-97d6e9dfce86"
-        }
-      ]
-    },
     {
       "uuid": "b4a31eb7-0778-4b41-9572-4174286a3bf5",
       "name": "Pokemons",
@@ -180,539 +48,9 @@
           "uuid": "faf1015f-405d-4432-b7a2-dae78d32386b"
         }
       ]
-    },
-    {
-      "uuid": "6fd6a1bc-154c-40da-b4be-c8a9a86e50e3",
-      "name": "Notifications",
-      "children": [
-        {
-          "type": "route",
-          "uuid": "4f150fe2-ef8a-4e06-ad6d-91cf1e88ec5d"
-        },
-        {
-          "type": "route",
-          "uuid": "7b8f5886-8fad-4ab4-ba6e-96cfaedb55f5"
-        },
-        {
-          "type": "route",
-          "uuid": "9c312390-3fc6-4f74-bff0-c70bd55c85e3"
-        },
-        {
-          "type": "route",
-          "uuid": "0ae75247-a208-4557-abcb-f4aed133273d"
-        }
-      ]
-    },
-    {
-      "uuid": "0126f181-368d-440c-bc6e-83406e4e4786",
-      "name": "Companies",
-      "children": [
-        {
-          "type": "route",
-          "uuid": "6bad53a6-c33b-4e86-b6c6-992cab364ac9"
-        },
-        {
-          "type": "route",
-          "uuid": "0aaf76e5-c924-4b0c-bcbf-5ef82f15560d"
-        },
-        {
-          "type": "route",
-          "uuid": "d189e981-0494-4e2b-9c9f-2061d164cd00"
-        },
-        {
-          "type": "route",
-          "uuid": "628970ad-9666-4ec2-826c-f8763c18e6b4"
-        }
-      ]
-    },
-    {
-      "uuid": "f3903bad-6329-4642-a4b0-68a183570758",
-      "name": "Customers",
-      "children": [
-        {
-          "type": "route",
-          "uuid": "37e9cb43-772e-4c79-ab20-6b21132de92e"
-        },
-        {
-          "type": "route",
-          "uuid": "e78e20c4-1e7a-48a4-a2f0-011ce81bf66f"
-        },
-        {
-          "type": "route",
-          "uuid": "fbb5958b-3635-42f1-97d4-b93170877a55"
-        },
-        {
-          "type": "route",
-          "uuid": "ffc90d45-75d8-473a-a059-77440d040911"
-        }
-      ]
     }
   ],
   "routes": [
-    {
-      "uuid": "c5054b7c-3b6e-4fd9-9cb8-9997125fb77b",
-      "type": "crud",
-      "documentation": "",
-      "method": "",
-      "endpoint": "posts",
-      "responses": [
-        {
-          "uuid": "48d73f95-ad54-4134-87c7-f1c0d47ed148",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 200,
-          "label": "",
-          "headers": [],
-          "bodyType": "DATABUCKET",
-          "filePath": "",
-          "databucketID": "nldz",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "230bcb6f-cb5d-44f9-b625-a4111b88cb5a",
-      "type": "crud",
-      "documentation": "",
-      "method": "",
-      "endpoint": "users",
-      "responses": [
-        {
-          "uuid": "9fc1e3ee-27fc-41bd-80aa-9006353b150b",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 200,
-          "label": "",
-          "headers": [],
-          "bodyType": "DATABUCKET",
-          "filePath": "",
-          "databucketID": "e3oa",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "6a63ab89-350f-4d38-b27a-994ea5ce0182",
-      "type": "http",
-      "documentation": "",
-      "method": "delete",
-      "endpoint": "posts",
-      "responses": [
-        {
-          "uuid": "863dbbce-94b9-4794-ad60-4a237bb4ae15",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "c52f1ba8-7557-484f-81d0-da66a49611db",
-      "type": "http",
-      "documentation": "",
-      "method": "delete",
-      "endpoint": "users",
-      "responses": [
-        {
-          "uuid": "283f0a5f-bc1b-4115-9e6b-818357551952",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "37f1ac54-7b09-41cc-8ee4-78e8dab6bbef",
-      "type": "http",
-      "documentation": "",
-      "method": "put",
-      "endpoint": "posts",
-      "responses": [
-        {
-          "uuid": "de872af0-4a4f-4975-b64e-246b5ebdb28c",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "de113697-9b46-4398-8ae3-9879eeaa6423",
-      "type": "http",
-      "documentation": "",
-      "method": "patch",
-      "endpoint": "posts",
-      "responses": [
-        {
-          "uuid": "97f9c225-0265-4047-a651-83912f010d60",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "01bc923f-30e0-41ba-8121-663f7e0cb96a",
-      "type": "http",
-      "documentation": "",
-      "method": "put",
-      "endpoint": "users",
-      "responses": [
-        {
-          "uuid": "90c62dc6-a047-47e4-b12f-9d7fb087c5f8",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "2e690302-578a-449f-b8ef-fff0ed565d35",
-      "type": "http",
-      "documentation": "",
-      "method": "patch",
-      "endpoint": "users",
-      "responses": [
-        {
-          "uuid": "35a8c860-df02-4597-8709-0c59d212d345",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "f7c44b9c-363e-4dc5-869c-27eba9fe2366",
-      "type": "http",
-      "documentation": "",
-      "method": "delete",
-      "endpoint": "photos",
-      "responses": [
-        {
-          "uuid": "34d44615-caf3-49ef-b45a-9d83f9da4c37",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "9b83ff5e-4d24-425a-bc0a-36226d9dfcd0",
-      "type": "http",
-      "documentation": "",
-      "method": "put",
-      "endpoint": "photos",
-      "responses": [
-        {
-          "uuid": "c1f62e9f-8f84-444f-9854-79d0f99eb1f0",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "41a6f4b8-5a7b-4bb9-a5ad-87052249ccb3",
-      "type": "http",
-      "documentation": "",
-      "method": "patch",
-      "endpoint": "photos",
-      "responses": [
-        {
-          "uuid": "35922015-8e31-4b78-aaa7-52bc9a276a31",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "6b5d6193-06ab-4277-99c6-ee11d6687d85",
-      "type": "crud",
-      "documentation": "",
-      "method": "",
-      "endpoint": "photos",
-      "responses": [
-        {
-          "uuid": "02c6e483-0fc0-4624-b1b1-16a4200291af",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 200,
-          "label": "",
-          "headers": [],
-          "bodyType": "DATABUCKET",
-          "filePath": "",
-          "databucketID": "flbp",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "20b1f6df-0b79-49ab-a7e3-5401d24bab3e",
-      "type": "crud",
-      "documentation": "",
-      "method": "",
-      "endpoint": "todos",
-      "responses": [
-        {
-          "uuid": "7ac51cc6-e07b-43bd-af24-34ff95817e7b",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 200,
-          "label": "",
-          "headers": [],
-          "bodyType": "DATABUCKET",
-          "filePath": "",
-          "databucketID": "fz18",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "3af5a152-9c87-47ce-abf9-ad96b94f76cc",
-      "type": "http",
-      "documentation": "",
-      "method": "delete",
-      "endpoint": "todos",
-      "responses": [
-        {
-          "uuid": "28165c00-a145-4481-8190-dcdd0239fd82",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "d4264639-72fc-4af9-88c7-2b41598061ac",
-      "type": "http",
-      "documentation": "",
-      "method": "put",
-      "endpoint": "todos",
-      "responses": [
-        {
-          "uuid": "9db6aeb9-c584-46fc-8e10-d7eda4ab83d6",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "28219fb6-e1bb-43f9-aa26-84f63b4ea992",
-      "type": "http",
-      "documentation": "",
-      "method": "patch",
-      "endpoint": "todos",
-      "responses": [
-        {
-          "uuid": "8123de21-cfc9-4d22-8004-b80ecb3b9c06",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
     {
       "uuid": "ba8cc650-e94b-49ee-b30d-1e37e80a3385",
       "type": "http",
@@ -740,239 +78,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
-    },
-    {
-      "uuid": "d3689be3-fbb0-488e-9a7b-ac3c32380765",
-      "type": "crud",
-      "documentation": "",
-      "method": "",
-      "endpoint": "contacts",
-      "responses": [
-        {
-          "uuid": "1a67fa28-5ce6-40c6-8e86-2fae0b2207bd",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 200,
-          "label": "",
-          "headers": [],
-          "bodyType": "DATABUCKET",
-          "filePath": "",
-          "databucketID": "oep1",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "5043d69b-0291-428e-8276-7383f640aa8f",
-      "type": "http",
-      "documentation": "",
-      "method": "delete",
-      "endpoint": "contacts",
-      "responses": [
-        {
-          "uuid": "c5dd4b32-33de-48f1-a12b-920cac9ee150",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "f7a6253f-eb79-4095-aec4-b68779eba2e8",
-      "type": "http",
-      "documentation": "",
-      "method": "patch",
-      "endpoint": "contacts",
-      "responses": [
-        {
-          "uuid": "c6f68d80-e319-45ef-8bd7-71af0ffc50d0",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "71c16075-cf6d-4754-aeab-8a3e1fbc81af",
-      "type": "http",
-      "documentation": "",
-      "method": "put",
-      "endpoint": "contacts",
-      "responses": [
-        {
-          "uuid": "2d00a4e5-77c8-4e98-ac87-04d6e2ced8bb",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "1d654a75-38bb-47ba-be51-97d6e9dfce86",
-      "type": "crud",
-      "documentation": "",
-      "method": "",
-      "endpoint": "movies",
-      "responses": [
-        {
-          "uuid": "56d5f1ba-bcd5-4c3f-8780-a215d09a41c2",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 200,
-          "label": "",
-          "headers": [],
-          "bodyType": "DATABUCKET",
-          "filePath": "",
-          "databucketID": "icnb",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "dd74e73d-4e54-434d-8fb0-cac4793250bc",
-      "type": "http",
-      "documentation": "",
-      "method": "delete",
-      "endpoint": "movies",
-      "responses": [
-        {
-          "uuid": "65c53f0b-7044-4c8c-8640-1d70211919e5",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "76a52b98-42b1-4b91-a3f0-17d28c257379",
-      "type": "http",
-      "documentation": "",
-      "method": "patch",
-      "endpoint": "movies",
-      "responses": [
-        {
-          "uuid": "8201f6c8-5baf-413a-8a81-f29c9b2fc82e",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "542beead-3053-4c79-9030-e1eec974a72a",
-      "type": "http",
-      "documentation": "",
-      "method": "put",
-      "endpoint": "movies",
-      "responses": [
-        {
-          "uuid": "5d4f2be9-74eb-4c57-b1fe-7bfdc4105a68",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "cc0bff13-7f9a-4778-a83c-5404fbb4d3b6",
@@ -1006,7 +114,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "9fd22048-196a-401a-9cd7-8c61075bdb39",
@@ -1035,7 +145,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "f7add0d5-9b0e-40dc-b2c6-6fbf01a01b04",
@@ -1064,7 +176,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "66926207-1634-4ac6-aa63-0d809430aae5",
@@ -1093,7 +207,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "18817485-c6cb-400f-9262-51fdaf6f9240",
@@ -1122,7 +238,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "faf1015f-405d-4432-b7a2-dae78d32386b",
@@ -1151,7 +269,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "1d978dd1-0300-4dca-8877-9509797c9a77",
@@ -1180,7 +300,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "50294e9d-14a2-4321-9e5f-ee5a08e5cfa3",
@@ -1209,7 +331,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "635fecb3-df19-4448-96d7-b32290fa1004",
@@ -1238,7 +362,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "96682120-7399-404d-930e-8f4055df08d0",
@@ -1267,36 +393,9 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
-    },
-    {
-      "uuid": "ffc90d45-75d8-473a-a059-77440d040911",
-      "type": "crud",
-      "documentation": "",
-      "method": "",
-      "endpoint": "customers",
-      "responses": [
-        {
-          "uuid": "798bc7f4-4136-4149-9ded-17efd9b459df",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 200,
-          "label": "",
-          "headers": [],
-          "bodyType": "DATABUCKET",
-          "filePath": "",
-          "databucketID": "tizi",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
       "uuid": "628970ad-9666-4ec2-826c-f8763c18e6b4",
@@ -1323,19 +422,522 @@
           "default": true,
           "crudKey": "id",
           "callbacks": []
+        },
+        {
+          "uuid": "17e7b420-d814-4378-8e65-cd123558af54",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global DELETE",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "delete",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/companies",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "f948c634-9d4c-44d0-b033-6d5eeef5def2",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PUT",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "put",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/companies",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "afdab23b-9b6e-4c9e-add4-4917d28c01de",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PATCH",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "patch",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/companies",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
-      "uuid": "0ae75247-a208-4557-abcb-f4aed133273d",
+      "uuid": "b374bbc0-1b72-4576-9837-5fc82b5cafae",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "contacts",
+      "responses": [
+        {
+          "uuid": "33d5990e-5008-4c96-922e-81dc7c1b48bb",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "oep1",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "07036b83-038f-4707-9eb5-24089b723b32",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global DELETE",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "delete",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/contacts",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "42a01348-79c1-4034-90c1-432aa8b50c5e",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PUT",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "put",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/contacts",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "c95e65a4-c3c4-416b-8cae-b87346b8099f",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PATCH",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "patch",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/contacts",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "0b1a1c10-07fb-4346-a969-97cf22ec5525",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "customers",
+      "responses": [
+        {
+          "uuid": "f680cd15-3217-4c58-a288-9f773db6cf0c",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "tizi",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "2643cc48-1439-4607-8d0a-55059aa74f36",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global DELETE",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "delete",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/customers",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "e7c2494b-bb7b-406f-882d-1e9a270270d2",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PUT",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "put",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/customers",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "ff70a26d-a85e-4148-a091-b3f9a5cb5dc2",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PATCH",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "patch",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/customers",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "a39966a8-2573-4472-9cdd-43efa4dd5de5",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "movies",
+      "responses": [
+        {
+          "uuid": "bd5e0557-3919-4667-b3f5-e4bdc09beefb",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "icnb",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "d7590710-25aa-44b1-9ae2-183c37531c1e",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global DELETE",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "delete",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/movies",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "646e27fd-aefe-4438-9691-52c146f7d217",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PUT",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "put",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/movies",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "9fb5727f-65a0-4148-9168-da60c6e49348",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PATCH",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "patch",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/movies",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "b6190a8f-8b60-46ef-ac3a-daedd8b12990",
       "type": "crud",
       "documentation": "",
       "method": "",
       "endpoint": "notifications",
       "responses": [
         {
-          "uuid": "5c220ee6-5653-4ff6-bc6a-1cd33eda6098",
+          "uuid": "eb08209f-032f-4d2e-bef5-6bf5fd7c32e8",
           "body": "{}",
           "latency": 0,
           "statusCode": 200,
@@ -1352,27 +954,131 @@
           "default": true,
           "crudKey": "id",
           "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "4f150fe2-ef8a-4e06-ad6d-91cf1e88ec5d",
-      "type": "http",
-      "documentation": "",
-      "method": "delete",
-      "endpoint": "notifications",
-      "responses": [
+        },
         {
-          "uuid": "b907c075-8a98-4be2-92e2-6982bf6b6997",
+          "uuid": "d491ca8f-e953-4b28-ae1e-e32e346215c9",
           "body": "{}",
           "latency": 0,
           "statusCode": 404,
-          "label": "",
+          "label": "Forbidden global DELETE",
           "headers": [],
           "bodyType": "INLINE",
           "filePath": "",
           "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "delete",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/notifications",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "19448cf8-f6b2-4871-a96e-0651719025d2",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PUT",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "put",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/notifications",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "87e76735-a118-4cbf-91a1-856dd9a5823a",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PATCH",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "patch",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/notifications",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "ffcf3cc8-ef3e-47a9-bb81-24876c0b7b69",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "photos",
+      "responses": [
+        {
+          "uuid": "8b8ced15-bf50-4ede-a004-d4bc6a2fa648",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "flbp",
           "sendFileAsBody": false,
           "rules": [],
           "rulesOperator": "OR",
@@ -1381,27 +1087,131 @@
           "default": true,
           "crudKey": "id",
           "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "7b8f5886-8fad-4ab4-ba6e-96cfaedb55f5",
-      "type": "http",
-      "documentation": "",
-      "method": "put",
-      "endpoint": "notifications",
-      "responses": [
+        },
         {
-          "uuid": "b0497cc4-2049-43bc-b3c9-7a8991875370",
+          "uuid": "530bde73-e99d-4396-ba29-25e285185d11",
           "body": "{}",
           "latency": 0,
           "statusCode": 404,
-          "label": "",
+          "label": "Forbidden global DELETE",
           "headers": [],
           "bodyType": "INLINE",
           "filePath": "",
           "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "delete",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/photos",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "2740b0af-857b-46db-b84b-ebb4c2b9fd88",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PUT",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "put",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/photos",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "2691e2ef-e7ea-41ac-a2c9-ac28b8a4473b",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PATCH",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "patch",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/photos",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "9428ffb6-945b-4cff-ac8a-0cf11e4742e3",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "posts",
+      "responses": [
+        {
+          "uuid": "d950ba99-f5ba-4827-898e-93e4fcc1ffb0",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "nldz",
           "sendFileAsBody": false,
           "rules": [],
           "rulesOperator": "OR",
@@ -1410,27 +1220,131 @@
           "default": true,
           "crudKey": "id",
           "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "9c312390-3fc6-4f74-bff0-c70bd55c85e3",
-      "type": "http",
-      "documentation": "",
-      "method": "patch",
-      "endpoint": "notifications",
-      "responses": [
+        },
         {
-          "uuid": "3a068edb-731c-4577-9fcb-cdcad0262574",
+          "uuid": "d26dbf5e-b124-4fc3-b3c1-a895dcd5aab3",
           "body": "{}",
           "latency": 0,
           "statusCode": 404,
-          "label": "",
+          "label": "Forbidden global DELETE",
           "headers": [],
           "bodyType": "INLINE",
           "filePath": "",
           "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "delete",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/posts",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "bdad272c-af85-4dbe-926f-b6d9bc814a49",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PUT",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "put",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/posts",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "ce5d77e6-1ee6-46bc-9717-23fbffbbe122",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PATCH",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "patch",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/posts",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "490100db-e626-42b8-bd40-8fa8aa6cb57e",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "todos",
+      "responses": [
+        {
+          "uuid": "9a9ca86f-39e0-4144-a1a9-8ca94941be36",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "fz18",
           "sendFileAsBody": false,
           "rules": [],
           "rulesOperator": "OR",
@@ -1439,27 +1353,131 @@
           "default": true,
           "crudKey": "id",
           "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "37e9cb43-772e-4c79-ab20-6b21132de92e",
-      "type": "http",
-      "documentation": "",
-      "method": "delete",
-      "endpoint": "customers",
-      "responses": [
+        },
         {
-          "uuid": "261fbad3-d9d4-48fc-a7c7-55143b5f378a",
+          "uuid": "8075e4b2-d0ce-4d7c-aedb-44111f21a80d",
           "body": "{}",
           "latency": 0,
           "statusCode": 404,
-          "label": "",
+          "label": "Forbidden global DELETE",
           "headers": [],
           "bodyType": "INLINE",
           "filePath": "",
           "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "delete",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/todos",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "9501fa06-b15d-4c3c-a45e-87cd6c3c4c66",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PUT",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "put",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/todos",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "5cae0fca-d99f-4061-b071-2328d764df21",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PATCH",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "patch",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/todos",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "e30f6e99-3c0d-4576-b552-dc7627d90f64",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "users",
+      "responses": [
+        {
+          "uuid": "755cbcaa-b2f4-41af-ac87-e976488b58b3",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "e3oa",
           "sendFileAsBody": false,
           "rules": [],
           "rulesOperator": "OR",
@@ -1468,27 +1486,131 @@
           "default": true,
           "crudKey": "id",
           "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "e78e20c4-1e7a-48a4-a2f0-011ce81bf66f",
-      "type": "http",
-      "documentation": "",
-      "method": "put",
-      "endpoint": "customers",
-      "responses": [
+        },
         {
-          "uuid": "f0f0030f-b2dd-40c4-8eac-39af37d23955",
+          "uuid": "4facd974-4193-469b-b5ee-59249ddde6c1",
           "body": "{}",
           "latency": 0,
           "statusCode": 404,
-          "label": "",
+          "label": "Forbidden global DELETE",
           "headers": [],
           "bodyType": "INLINE",
           "filePath": "",
           "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "delete",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/users",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "bc0d867b-977c-42ed-9277-22c38382f634",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PUT",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "put",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/users",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "312a106b-d38b-4be4-9418-cbd615935db8",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Forbidden global PATCH",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "patch",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/users",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "0da0d2b0-035c-4cb9-9a2f-c7f97e741114",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "sales",
+      "responses": [
+        {
+          "uuid": "bedd4e1e-0cda-4a58-a1db-b846545d106e",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "0mvd",
           "sendFileAsBody": false,
           "rules": [],
           "rulesOperator": "OR",
@@ -1497,125 +1619,113 @@
           "default": true,
           "crudKey": "id",
           "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "fbb5958b-3635-42f1-97d4-b93170877a55",
-      "type": "http",
-      "documentation": "",
-      "method": "patch",
-      "endpoint": "customers",
-      "responses": [
+        },
         {
-          "uuid": "f609fe26-b4ad-4f04-88a2-4a33f6f7bcfb",
+          "uuid": "bfe91cb0-1bd0-4ba7-94a8-76383831eec7",
           "body": "{}",
           "latency": 0,
           "statusCode": 404,
-          "label": "",
+          "label": "Forbidden global DELETE",
           "headers": [],
           "bodyType": "INLINE",
           "filePath": "",
           "databucketID": "",
           "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "delete",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/sales",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
           "disableTemplating": false,
           "fallbackTo404": false,
-          "default": true,
+          "default": false,
           "crudKey": "id",
           "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "d189e981-0494-4e2b-9c9f-2061d164cd00",
-      "type": "http",
-      "documentation": "",
-      "method": "patch",
-      "endpoint": "companies",
-      "responses": [
+        },
         {
-          "uuid": "eaa87a5e-9d60-4250-b3a4-bc9f4b14a5b0",
+          "uuid": "b8b55f02-1abe-4360-aa76-508eac6844ff",
           "body": "{}",
           "latency": 0,
           "statusCode": 404,
-          "label": "",
+          "label": "Forbidden global PUT",
           "headers": [],
           "bodyType": "INLINE",
           "filePath": "",
           "databucketID": "",
           "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "put",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/sales",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
           "disableTemplating": false,
           "fallbackTo404": false,
-          "default": true,
+          "default": false,
           "crudKey": "id",
           "callbacks": []
-        }
-      ],
-      "responseMode": null
-    },
-    {
-      "uuid": "0aaf76e5-c924-4b0c-bcbf-5ef82f15560d",
-      "type": "http",
-      "documentation": "",
-      "method": "put",
-      "endpoint": "companies",
-      "responses": [
+        },
         {
-          "uuid": "398e10f2-99fb-4b85-a9d4-ad3f2da475c6",
+          "uuid": "8815e0fc-2c85-4f4e-8d61-3bbac46176c2",
           "body": "{}",
           "latency": 0,
           "statusCode": 404,
-          "label": "",
+          "label": "Forbidden global PATCH",
           "headers": [],
           "bodyType": "INLINE",
           "filePath": "",
           "databucketID": "",
           "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
+          "rules": [
+            {
+              "target": "method",
+              "modifier": "",
+              "value": "patch",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "path",
+              "modifier": "",
+              "value": "/sales",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
           "disableTemplating": false,
           "fallbackTo404": false,
-          "default": true,
+          "default": false,
           "crudKey": "id",
           "callbacks": []
         }
       ],
-      "responseMode": null
-    },
-    {
-      "uuid": "6bad53a6-c33b-4e86-b6c6-992cab364ac9",
-      "type": "http",
-      "documentation": "",
-      "method": "delete",
-      "endpoint": "companies",
-      "responses": [
-        {
-          "uuid": "abf0c641-75d3-4750-b3a8-578d80f2d063",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 404,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
-        }
-      ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     }
   ],
   "rootChildren": [
@@ -1628,40 +1738,44 @@
       "uuid": "cc0bff13-7f9a-4778-a83c-5404fbb4d3b6"
     },
     {
-      "type": "folder",
-      "uuid": "0126f181-368d-440c-bc6e-83406e4e4786"
+      "type": "route",
+      "uuid": "628970ad-9666-4ec2-826c-f8763c18e6b4"
     },
     {
-      "type": "folder",
-      "uuid": "eee27cf2-bf2d-4152-8065-80e7e5f40f9a"
+      "type": "route",
+      "uuid": "b374bbc0-1b72-4576-9837-5fc82b5cafae"
     },
     {
-      "type": "folder",
-      "uuid": "f3903bad-6329-4642-a4b0-68a183570758"
+      "type": "route",
+      "uuid": "0b1a1c10-07fb-4346-a969-97cf22ec5525"
     },
     {
-      "type": "folder",
-      "uuid": "01fa6f3d-f03d-4346-b1e4-5cee805145a9"
+      "type": "route",
+      "uuid": "a39966a8-2573-4472-9cdd-43efa4dd5de5"
     },
     {
-      "type": "folder",
-      "uuid": "6fd6a1bc-154c-40da-b4be-c8a9a86e50e3"
+      "type": "route",
+      "uuid": "b6190a8f-8b60-46ef-ac3a-daedd8b12990"
     },
     {
-      "type": "folder",
-      "uuid": "ea831cc6-d553-4b1c-84ad-4b3cf2aee407"
+      "type": "route",
+      "uuid": "ffcf3cc8-ef3e-47a9-bb81-24876c0b7b69"
     },
     {
-      "type": "folder",
-      "uuid": "796e7599-3711-4680-82f7-25f8aff779cc"
+      "type": "route",
+      "uuid": "9428ffb6-945b-4cff-ac8a-0cf11e4742e3"
     },
     {
-      "type": "folder",
-      "uuid": "5ecc0e66-99b9-48b6-97c9-d0c0b4a2fa5c"
+      "type": "route",
+      "uuid": "0da0d2b0-035c-4cb9-9a2f-c7f97e741114"
     },
     {
-      "type": "folder",
-      "uuid": "9dd1c769-dd71-4474-b37b-f67d3cfac126"
+      "type": "route",
+      "uuid": "490100db-e626-42b8-bd40-8fa8aa6cb57e"
+    },
+    {
+      "type": "route",
+      "uuid": "e30f6e99-3c0d-4576-b552-dc7627d90f64"
     },
     {
       "type": "folder",
@@ -1716,14 +1830,14 @@
       "id": "oep1",
       "name": "Contacts",
       "documentation": "",
-      "value": "[\n  {{#repeat 100}}\n    {\n      \"id\": \"{{faker 'string.uuid'}}\",\n      \"name\": \"{{faker 'person.firstName'}} {{faker 'person.lastName'}}\",\n      \"email\": \"{{faker 'internet.email'}}\",\n      \"phone\": \"{{faker 'phone.number'}}\",\n      \"address\": {\n        \"street\": \"{{faker 'location.streetAddress'}}\",\n        \"city\": \"{{faker 'location.city'}}\",\n        \"state\": \"{{faker 'location.state'}}\",\n        \"zip\": \"{{faker 'location.zipCode'}}\"\n      },\n      \"age\": {{faker 'number.int' max=100}}\n    }\n  {{/repeat}}\n]"
+      "value": "[\n  {{#repeat 100}}\n    { {{setVar 'fn' (faker 'person.firstName')}} {{setVar 'ln' (faker 'person.lastName')}}\n      \"id\": \"{{faker 'string.uuid'}}\",\n      \"name\": \"{{@fn}} {{@ln}}\",\n      \"email\": \"{{faker 'internet.email' firstName=@fn lastName=@ln}}\",\n      \"profilePicture\": \"{{faker 'image.avatar'}}\",\n      \"phone\": \"{{faker 'phone.number'}}\",\n      \"address\": {\n        \"street\": \"{{faker 'location.streetAddress'}}\",\n        \"city\": \"{{faker 'location.city'}}\",\n        \"state\": \"{{faker 'location.state'}}\",\n        \"zip\": \"{{faker 'location.zipCode'}}\",\n        \"coordinates\": {\n          \"lat\": \"{{faker 'location.latitude'}}\",\n          \"lon\": \"{{faker 'location.longitude'}}\"\n        }\n      },\n      \"age\": {{faker 'number.int' max=100}}\n    }\n  {{/repeat}}\n]"
     },
     {
       "uuid": "e92671d1-1e1a-4343-a053-e0937d9289c8",
       "id": "tizi",
       "name": "Customers",
       "documentation": "",
-      "value": "[\n  {{#repeat 100}}\n    {\n      \"id\": \"{{faker 'string.uuid'}}\",\n      \"name\": \"{{faker 'person.firstName'}} {{faker 'person.lastName'}}\",\n      \"email\": \"{{faker 'internet.email'}}\",\n      \"phone\": \"{{faker 'phone.number'}}\",\n      \"address\": \"{{faker 'location.streetAddress'}}, {{faker 'location.city'}}, {{faker 'location.state' abbreviated=true}} {{faker 'location.zipCode'}}\",\n      \"age\": {{faker 'number.int' min=18 max=120}},\n      \"isVip\": {{faker 'datatype.boolean'}}\n    }\n  {{/repeat}}\n]"
+      "value": "[\n  {{#repeat 100}}\n    { {{setVar 'fn' (faker 'person.firstName')}} {{setVar 'ln' (faker 'person.lastName')}}\n      \"id\": \"{{faker 'string.uuid'}}\",\n      \"name\": \"{{@fn}} {{@ln}}\",\n      \"email\": \"{{faker 'internet.email' firstName=@fn lastName=@ln}}\",\n      \"profilePicture\": \"{{faker 'image.avatar'}}\",\n      \"phone\": \"{{faker 'phone.number'}}\",\n      \"address\": {\n        \"street\": \"{{faker 'location.streetAddress'}}\",\n        \"city\": \"{{faker 'location.city'}}\",\n        \"state\": \"{{faker 'location.state'}}\",\n        \"zip\": \"{{faker 'location.zipCode'}}\",\n        \"coordinates\": {\n          \"lat\": \"{{faker 'location.latitude'}}\",\n          \"lon\": \"{{faker 'location.longitude'}}\"\n        }\n      },\n      \"age\": {{faker 'number.int' min=18 max=120}},\n      \"isVip\": {{faker 'datatype.boolean'}}\n    }\n  {{/repeat}}\n]"
     },
     {
       "uuid": "2569bea8-efd0-4b01-abbc-15665bdfa1db",
@@ -1761,6 +1875,13 @@
       "value": "[\n  {{#repeat 100}}\n    {\n      \"id\": \"{{faker 'string.uuid'}}\",\n      \"title\": \"{{faker 'lorem.sentence'}}\",\n      \"author\": \"{{faker 'person.fullName'}}\",\n      \"date\": \"{{dateFormat (faker 'date.past') 'yyyy-MM-dd\\'T\\'HH:mm:ss.SSS\\'Z\\''}}\",\n      \"content\": \"{{faker 'lorem.paragraph' 10}}\",\n      \"views\": {{faker 'number.int' max=99999}},\n      \"isPublished\": {{faker 'datatype.boolean'}}\n    }\n  {{/repeat}}\n]"
     },
     {
+      "uuid": "b0bcf962-aa5b-41ea-84e5-a71498792869",
+      "id": "0mvd",
+      "name": "Sales",
+      "documentation": "",
+      "value": "[\r\n  {{#repeat 100}}\r\n    { {{setVar 'unitNo' (faker 'number.int' min=1 max=50)}} {{setVar 'unitPrice' (faker 'commerce.price' min=1 max=500)}} {{setVar 'unitCost' (faker 'commerce.price' min=1 max=200)}} {{setVar 'totalRevenue' (multiply @unitNo @unitPrice)}} {{setVar 'totalCost' (multiply @unitCost @unitNo)}} {{setVar 'totalProfit' (subtract @totalRevenue @totalCost)}}\r\n      \"id\": \"{{faker 'string.uuid'}}\",\r\n      \"country\": \"{{faker 'location.country'}}\",\r\n      \"itemType\": \"{{faker 'commerce.product'}}\",\r\n      \"salesChannel\": \"{{faker 'commerce.department'}}\",\r\n      \"group\": \"{{faker 'commerce.productAdjective'}}\",\r\n      \"orderData\": \"{{faker 'date.past' '10' 'years'}}\",\r\n      \"shippingDate\": \"{{faker 'date.soon'}}\",\r\n      \"units\": {{@unitNo}},\r\n      \"unitPrice\": \"{{@unitPrice}}\",\r\n      \"unitCost\": \"{{@unitCost}}\",\r\n      \"totalRevenue\": \"{{@totalRevenue}}\",\r\n      \"totalCost\": \"{{@totalCost}}\",\r\n      \"totalProfit\": \"{{@totalProfit}}\"\r\n    }\r\n  {{/repeat}}\r\n]"
+    },
+    {
       "uuid": "029eff50-1482-4ae6-806c-7bd00e96b1bc",
       "id": "fz18",
       "name": "Todos",
@@ -1772,7 +1893,7 @@
       "id": "e3oa",
       "name": "Users",
       "documentation": "",
-      "value": "[\r\n  {{#repeat 100}}\r\n    {\r\n      \"id\": \"{{faker 'string.uuid'}}\",\r\n      \"name\": \"{{faker 'person.firstName'}} {{faker 'person.lastName'}}\",\r\n      \"email\": \"{{faker 'internet.email'}}\",\r\n      \"phone\": \"{{faker 'phone.number'}}\",\r\n      \"address\": \"{{faker 'location.streetAddress'}}, {{faker 'location.city'}}, {{faker 'location.state' (object abbreviated=true)}} {{faker 'location.zipCode'}}\",\r\n      \"birthdate\": \"{{date '1900' '2023' 'YYYY-MM-dd'}}\",\r\n      \"isActive\": {{faker 'datatype.boolean'}}\r\n    }\r\n  {{/repeat}}\r\n]"
+      "value": "[\r\n  {{#repeat 100}}\r\n    { {{setVar 'fn' (faker 'person.firstName')}} {{setVar 'ln' (faker 'person.lastName')}}\r\n      \"id\": \"{{faker 'string.uuid'}}\",\r\n      \"name\": \"{{@fn}} {{@ln}}\",\r\n      \"username\": \"{{faker 'internet.displayName' firstName=@fn lastName=@ln}}\",\r\n      \"profilePicture\": \"{{faker 'image.avatar'}}\",\r\n      \"email\": \"{{faker 'internet.email'}}\",\r\n      \"phone\": \"{{faker 'phone.number'}}\",\r\n      \"address\": {\r\n        \"street\": \"{{faker 'location.streetAddress'}}\",\r\n        \"city\": \"{{faker 'location.city'}}\",\r\n        \"state\": \"{{faker 'location.state'}}\",\r\n        \"zip\": \"{{faker 'location.zipCode'}}\",\r\n        \"coordinates\": {\r\n          \"lat\": \"{{faker 'location.latitude'}}\",\r\n          \"lon\": \"{{faker 'location.longitude'}}\"\r\n        }\r\n      },\r\n      \"birthdate\": \"{{date '1900' '2023' 'YYYY-MM-dd'}}\",\r\n      \"isActive\": {{faker 'datatype.boolean'}}\r\n    }\r\n  {{/repeat}}\r\n]"
     }
   ],
   "callbacks": []

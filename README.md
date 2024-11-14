@@ -19,25 +19,30 @@ Mockoon's playground is a ready-to-use mock API for all your prototyping needs: 
 
 The playground offers the following resources, populated with fake data (generated using [Faker.js](https://fakerjs.dev/)):
 
+- [`/companies`](https://playground.mockoon.com/companies): a CRUD endpoint with fake companies.
 - [`/contacts`](https://playground.mockoon.com/contacts): a CRUD endpoint with fake contacts.
+- [`/customers`](https://playground.mockoon.com/customers): a CRUD endpoint with fake customers.
 - [`/movies`](https://playground.mockoon.com/movies): a CRUD endpoint with fake movies.
+- [`/notifications`](https://playground.mockoon.com/notifications): a CRUD endpoint with fake notifications.
 - [`/photos`](https://playground.mockoon.com/photos): a CRUD endpoint with fake photos.
+- [`/pokemons`](https://playground.mockoon.com/pokemons): a CRUD endpoint with fake pokemons (read-only).
 - [`/posts`](https://playground.mockoon.com/posts): a CRUD endpoint with fake posts.
+- [`/sales`](https://playground.mockoon.com/sales): a CRUD endpoint with fake sales.
 - [`/todos`](https://playground.mockoon.com/todos): a CRUD endpoint with fake todos.
 - [`/users`](https://playground.mockoon.com/users): a CRUD endpoint with fake users.
 
-The following routes are available for each resource:
+The following routes are available for each resource (replace `{resources}` with the resource name, e.g. `companies`):
 
-- `GET /resources`: Returns the entire array.
-- `GET /resources/:id`: Returns an object by its id property.
-- `POST /resources`: Inserts a new object in the array (autogenerate the id (UUID) if not provided).
-- `PUT /resources/:id`: Performs a full object update by its id (replace).
-- `PATCH /resources/:id`: Performs a partial object update by its id (merge).
-- `DELETE /resources/:id`: Deletes an object by its id.
+- `GET /{resources}`: Returns the entire array.
+- `GET /{resources}/:id`: Returns an object by its id property.
+- `POST /{resources}`: Inserts a new object in the array (autogenerate the id (UUID) if not provided).
+- `PUT /{resources}/:id`: Performs a full object update by its id (replace).
+- `PATCH /{resources}/:id`: Performs a partial object update by its id (merge).
+- `DELETE /{resources}/:id`: Deletes an object by its id.
 
 You can also use the sorting, searching and filtering query parameters on the main GET route, example: `?property_eq=test&page=2&limit=50`. You will find more information about the CRUD routes behavior in our [documentation](https://mockoon.com/docs/latest/api-endpoints/crud-routes/).
 
-> 💡 The following routes are disabled: `DELETE /resources`, `PATCH /resources`, `PUT /resources`. POST, DELETE, PATCH and PUT requests are persisted. GET requests are cached.
+> 💡 The following routes are disabled: `DELETE /{resources}`, `PATCH /{resources}`, `PUT /{resources}`. POST, DELETE, PATCH and PUT requests are persisted. GET requests are cached.
 
 > ⚠️ The playground is a shared resource (please don't abuse it) and is not meant to be used in production. Data are frequently reset.
 
