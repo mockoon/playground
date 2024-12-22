@@ -1730,13 +1730,13 @@
     {
       "uuid": "679565f4-7c0d-4ef5-b8e7-646a64521be1",
       "type": "http",
-      "documentation": "",
+      "documentation": "Return UTC time info",
       "method": "get",
       "endpoint": "time",
       "responses": [
         {
           "uuid": "77f65d99-3f55-41e8-b15b-fa00b9b05d62",
-          "body": "{{now}}",
+          "body": "{\n  \"utcDateTime\": \"{{now}}\",\n  \"unixTimeS\": {{dateFormat (now) 't'}},\n  \"unixTimeMS\": {{dateFormat (now) 'T'}},\n  \"milliseconds\": {{dateFormat (now) 'SSS'}},\n  \"seconds\": {{dateFormat (now) 's'}},\n  \"minutes\": {{dateFormat (now) 'm'}},\n  \"hours\": {{dateFormat (now) 'H'}},\n  \"dayOfWeekNumber\": {{dateFormat (now) 'i'}},\n  \"dayOfWeekName\": \"{{dateFormat (now) 'iiii'}}\",\n  \"dayOfMonth\": {{dateFormat (now) 'd'}},\n  \"dayOfYear\": {{dateFormat (now) 'D'}},\n  \"monthNumber\": {{dateFormat (now) 'M'}},\n  \"monthName\": \"{{dateFormat (now) 'MMMM'}}\",\n  \"quarter\": {{dateFormat (now) 'Q'}},\n  \"year\": {{dateFormat (now) 'YYYY'}},\n  \"weekOfYear\": {{dateFormat (now) 'w'}}\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
