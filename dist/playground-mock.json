@@ -1757,6 +1757,99 @@
       "responseMode": null,
       "streamingMode": null,
       "streamingInterval": 0
+    },
+    {
+      "uuid": "9283b237-2e60-476a-b248-1ff305d29847",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "lorem",
+      "responses": [
+        {
+          "uuid": "0bb47427-c6f3-4014-81c6-af6bec6aa577",
+          "body": "{{~setVar 'loremlength' (parseInt (queryParam 'length' 100))~}}\n{{#unless (getVar 'loremlength')}}\n  {{setVar 'loremlength' 100}}\n{{/unless}}\n{{#if (gt (getVar 'loremlength') 100)}}\n  {{setVar 'loremlength' 100}}\n{{/if}}\n{\n  \"content\": \"{{faker 'lorem.sentences' (parseInt (getVar 'loremlength'))}}\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "1668d44a-59db-4d40-956e-4857ba7aa2ca",
+      "type": "http",
+      "documentation": "",
+      "method": "all",
+      "endpoint": "error",
+      "responses": [
+        {
+          "uuid": "c6a4cb26-759d-4bc6-be5a-6e822ed16e1a",
+          "body": "{{status (queryParam 'code')}}{ \n  \"code\": {{queryParam 'code'}}\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "435bba7d-8747-43de-a2f4-e853afaa28cc",
+      "type": "http",
+      "documentation": "",
+      "method": "all",
+      "endpoint": "echo|parrot",
+      "responses": [
+        {
+          "uuid": "e18bc200-dc03-4a93-b820-e92d8d61dfd5",
+          "body": "{\n  \"ip\": \"{{ip}}\",\n  \"hostname\":\"{{hostname}}\",\n  \"baseUrl\": \"{{baseUrl}}\",\n  \"method\": \"{{method}}\",\n  \"body\": {{#if (includes (header 'content-type') 'application/json')}}{{body}}{{else}}{{{stringify (bodyRaw)}}}{{/if}}\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     }
   ],
   "rootChildren": [
@@ -1774,6 +1867,14 @@
     },
     {
       "type": "route",
+      "uuid": "435bba7d-8747-43de-a2f4-e853afaa28cc"
+    },
+    {
+      "type": "route",
+      "uuid": "1668d44a-59db-4d40-956e-4857ba7aa2ca"
+    },
+    {
+      "type": "route",
       "uuid": "628970ad-9666-4ec2-826c-f8763c18e6b4"
     },
     {
@@ -1783,6 +1884,10 @@
     {
       "type": "route",
       "uuid": "0b1a1c10-07fb-4346-a969-97cf22ec5525"
+    },
+    {
+      "type": "route",
+      "uuid": "9283b237-2e60-476a-b248-1ff305d29847"
     },
     {
       "type": "route",
