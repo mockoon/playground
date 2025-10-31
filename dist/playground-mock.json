@@ -1829,7 +1829,7 @@
       "responses": [
         {
           "uuid": "e18bc200-dc03-4a93-b820-e92d8d61dfd5",
-          "body": "{\n  \"ip\": \"{{ip}}\",\n  \"hostname\":\"{{hostname}}\",\n  \"baseUrl\": \"{{baseUrl}}\",\n  \"method\": \"{{method}}\",\n  \"body\": {{#if (includes (header 'content-type') 'application/json')}}{{body}}{{else}}{{{stringify (bodyRaw)}}}{{/if}}\n}",
+          "body": "{\n  \"ip\": \"{{ip}}\",\n  \"hostname\":\"{{hostname}}\",\n  \"baseUrl\": \"{{baseUrl}}\",\n  \"method\": \"{{method}}\",\n  \"body\": {{#if (includes (header 'content-type') 'application/json')}}{{body}}{{else}}{{{stringify (bodyRaw)}}}{{/if}},\n  \"headers\": {{{stringify (headers)}}},\n  \"queryParameters\": {{{stringify (queryParams)}}}\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",

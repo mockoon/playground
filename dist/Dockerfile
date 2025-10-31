@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM node:22-alpine
 
 RUN npm install -g @mockoon/cli@latest
 COPY ./playground-mock.json ./playground-mock.json
